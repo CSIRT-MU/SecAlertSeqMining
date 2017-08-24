@@ -2,7 +2,7 @@
 Set of scripts for simplification of using [SPMF library](http://www.philippe-fournier-viger.com/spmf/) for sequential rule and pattern mining in cybersecurity alerts.
 
 Scripts provide two functions.
-* Generate sequential databases in format required by SPMF. For this purpose there is `src/databases/generate-db.py` script.
+* Generate sequential databases in formats required by SPMF. For this purpose there is `src/databases/generate-db.py` script.
     * Databases can be generated from alerts in [IDEA format](https://idea.cesnet.cz) or alerts in csv with parameters order described in `src/databases/alerts/csv.py` module.
     * Because SPMF requires numeric representation of items for majority of algorithms,
     script generates output file with sequences where items are represented as numbers
